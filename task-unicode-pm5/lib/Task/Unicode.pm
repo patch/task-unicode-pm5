@@ -22,7 +22,100 @@ This document describes Task::Unicode version 0.01.
 
 =head1 DESCRIPTION
 
-...
+This L<Task> module installs everything needed for working with Unicode and
+UTF-8 as well as a number of modules and utilities to assist in development
+and debugging.  It is not intended to be an all-inclusive bundle of Unicode
+modules on the CPAN.  Instead, it is a collection of the essential and some of
+the most useful general-purpose modules.
+
+This is an early release of Task::Unicode and the bundled module list is not
+yet complete.  Please contact the author with suggestions for upcoming
+releases.
+
+=head2 MODULES
+
+=over
+
+=item L<Unicode::Collate::Locale>
+
+Linguistic tailoring for DUCET via Unicode::Collate
+
+=item L<Unicode::GCString>
+
+String as Sequence of UAX #29 Grapheme Clusters
+
+=item L<Unicode::LineBreak>
+
+Line Folding for Plain Text
+
+=item L<Unicode::Stringprep>
+
+Preparation of Internationalized Strings (RFC 3454)
+
+=item L<utf8::all>
+
+Turn on Unicode — all of it
+
+=item L<Encode::DoubleEncodedUTF8>
+
+Fix double-encoded UTF-8 bytes to the correct one
+
+=item L<String::Dump>
+
+Dump strings of characters or bytes for printing and debugging
+
+=back
+
+=head2 UTILITIES
+
+=over
+
+=item L<App::Uni>
+
+Command-line utility to grep UnicodeData.txt
+
+=item L<Unicode::Tussle>
+
+Tom’s Unicode Scripts So Life is Easier
+
+=back
+
+=head2 SEE ALSO
+
+This task requires Perl 5.8.0, which bundles the following important modules.
+
+=over
+
+=item charnames
+
+Access to Unicode character names and named character sequences; also define
+character names
+
+=item utf8
+
+Perl pragma to enable/disable UTF-8 (or UTF-EBCDIC) in source code
+
+=item open
+
+Perl pragma to set default PerlIO layers for input and output
+
+=item Encode
+
+Character encodings in Perl
+
+=item Unicode::Collate
+
+Unicode Collation Algorithm
+
+=item Unicode::Normalize
+
+Unicode Normalization Forms
+
+=item Unicode::UCD
+
+Unicode character database
+
+=back
 
 =head1 AUTHOR
 

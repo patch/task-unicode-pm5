@@ -11,7 +11,7 @@ my $builder = Module::Build->new(
         'Module::Build' => 0.36,
     },
     requires => {
-        'perl' => '5.6.0',  # our()
+        'perl' => '5.8.0',  # minimum Unicode support
     },
     meta_merge => {
         resources => {
