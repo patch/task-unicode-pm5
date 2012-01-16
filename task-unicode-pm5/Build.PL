@@ -12,6 +12,18 @@ my $builder = Module::Build->new(
     },
     requires => {
         'perl' => '5.8.0',  # minimum Unicode support
+        # modules
+        'Unicode::Collate::Locale' => 0,
+        'Unicode::GCString' => 0,
+        'Unicode::LineBreak' => 0,
+        'Unicode::Stringprep' => 0,
+        'utf8::all' => 0,
+        # debugging
+        'String::Dump' => 0,
+        'Encode::DoubleEncodedUTF8' => 0,
+        # utilities
+        'App::Uni' => 0,
+        'Unicode::Tussle' => 0,
     },
     meta_merge => {
         resources => {

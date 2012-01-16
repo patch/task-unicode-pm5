@@ -56,13 +56,19 @@ Preparation of Internationalized Strings (RFC 3454)
 
 Turn on Unicode — all of it
 
-=item L<Encode::DoubleEncodedUTF8>
+=back
 
-Fix double-encoded UTF-8 bytes to the correct one
+=head2 DEBUGGING
+
+=over
 
 =item L<String::Dump>
 
 Dump strings of characters or bytes for printing and debugging
+
+=item L<Encode::DoubleEncodedUTF8>
+
+Fix double-encoded UTF-8 bytes to the correct one
 
 =back
 
