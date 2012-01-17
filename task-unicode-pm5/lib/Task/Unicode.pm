@@ -29,8 +29,8 @@ modules on the CPAN.  Instead, it is a collection of the essential and some of
 the most useful general-purpose modules.
 
 This is an early release of Task::Unicode and the bundled module list is not
-yet complete.  Please contact the author with suggestions for upcoming
-releases.
+yet complete.  Modules may be added or removed.  Please contact the author
+with suggestions for upcoming releases.
 
 =head2 MODULES
 
