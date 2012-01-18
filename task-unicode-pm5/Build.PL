@@ -2,6 +2,22 @@ use strict;
 use warnings;
 use Module::Build;
 
+my %minimum_perl = (
+    '5.014' => {
+        'Unicode::Tussle' => 0,
+    },
+);
+
+my %requires;
+
+while (my ($perl_version, $requires_ref) = each %minimum_perl) {
+    if ($] >= $perl_version) {
+        while (my ($module_name, $module_version) = each %$requires_ref) {
+            $requires{$module_name} = $module_version;
+        }
+    }
+}
+
 my $builder = Module::Build->new(
     module_name    => 'Task::Unicode',
     license        => 'perl',
@@ -23,7 +39,7 @@ my $builder = Module::Build->new(
         'Encode::DoubleEncodedUTF8' => 0,
         # utilities
         'App::Uni' => 0,
-        'Unicode::Tussle' => 0,
+        %requires,
     },
     meta_merge => {
         resources => {

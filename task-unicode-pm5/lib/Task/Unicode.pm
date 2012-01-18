@@ -82,7 +82,7 @@ Command-line utility to grep UnicodeData.txt
 
 =item L<Unicode::Tussle>
 
-Tom’s Unicode Scripts So Life is Easier
+Tom’s Unicode Scripts So Life is Easier (only installed with Perl 5.14+)
 
 =back
 
