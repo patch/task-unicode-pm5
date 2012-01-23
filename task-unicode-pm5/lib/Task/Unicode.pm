@@ -14,7 +14,7 @@ __END__
 
 =head1 NAME
 
-Task::Unicode - Everything needed to work with Unicode
+Task::Unicode - Everything needed to work with Unicode data
 
 =head1 VERSION
 
@@ -23,14 +23,18 @@ This document describes Task::Unicode version 0.01.
 =head1 DESCRIPTION
 
 This L<Task> module installs everything needed for working with Unicode and
-UTF-8 as well as a number of modules and utilities to assist in development
-and debugging.  It is not intended to be an all-inclusive bundle of Unicode
-modules on the CPAN.  Instead, it is a collection of the essential and some of
-the most useful general-purpose modules.
+UTF-8 strings as well as a number of modules and utilities to assist in
+development and debugging.  It is not intended to be an all-inclusive bundle
+of Unicode modules on the CPAN.  Instead, it is a collection of the essential
+and some of the most useful general-purpose modules.
 
 This is an early release of Task::Unicode and the bundled module list is not
 yet complete.  Modules may be added or removed.  Please contact the author
 with suggestions for upcoming releases.
+
+The brief module descriptions are currently taken directly from each module.
+In the future, these will be slightly expanded and explained for those with
+less Unicode knowledge.
 
 =head2 MODULES
 
@@ -54,7 +58,7 @@ Preparation of Internationalized Strings (RFC 3454)
 
 =item L<utf8::all>
 
-Turn on Unicode — all of it
+Turn on Unicode—all of it
 
 =back
 
