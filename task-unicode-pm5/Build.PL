@@ -5,7 +5,7 @@ use Module::Build;
 my %requires;
 
 if ($] >= 5.014) {
-    $requires{'Unicode::Tussle'} => 0;
+    $requires{'Unicode::Tussle'} = 0;
 }
 
 my $builder = Module::Build->new(
