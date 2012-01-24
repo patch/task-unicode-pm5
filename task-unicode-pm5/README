@@ -2,7 +2,7 @@ NAME
     Task::Unicode - Everything needed to work with Unicode data
 
 VERSION
-    This document describes Task::Unicode version 0.01.
+    This document describes Task::Unicode version 0.02.
 
 DESCRIPTION
     This Task module installs everything needed for working with Unicode and

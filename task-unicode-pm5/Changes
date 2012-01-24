@@ -1,5 +1,11 @@
 # Revision history for Perl module Task::Unicode
 ---
+version: 0.02
+date:    2012-01-23
+changes:
+  - Fixed bug preventing Unicode::Tussle inclusion on Perl 5.14+
+  - Added links to the modules in the SEE ALSO section
+---
 version: 0.01
 date:    2012-01-22
 changes:

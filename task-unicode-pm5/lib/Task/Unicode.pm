@@ -4,7 +4,7 @@ use 5.006;
 use strict;
 use warnings;
 
-our $VERSION = '0.01';
+our $VERSION = '0.02';
 
 1;
 
@@ -18,7 +18,7 @@ Task::Unicode - Everything needed to work with Unicode data
 
 =head1 VERSION
 
-This document describes Task::Unicode version 0.01.
+This document describes Task::Unicode version 0.02.
 
 =head1 DESCRIPTION
 
