@@ -1,5 +1,10 @@
 # Revision history for Perl module Task::Unicode
 ---
+version: 0.03
+date:    2012-03-05
+changes:
+  - Added Unicode::CaseFold module
+---
 version: 0.02
 date:    2012-01-23
 changes:

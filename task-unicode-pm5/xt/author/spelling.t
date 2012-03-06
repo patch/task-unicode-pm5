@@ -14,6 +14,7 @@ CPAN
 DUCET
 EBCDIC
 Grapheme
+lookups
 txt
 UAX
 UnicodeData

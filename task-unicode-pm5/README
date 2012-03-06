@@ -2,7 +2,7 @@ NAME
     Task::Unicode - Everything needed to work with Unicode data
 
 VERSION
-    This document describes Task::Unicode version 0.02.
+    This document describes Task::Unicode version 0.03.
 
 DESCRIPTION
     This Task module installs everything needed for working with Unicode and
@@ -20,6 +20,9 @@ DESCRIPTION
     those with less Unicode knowledge.
 
   MODULES
+    Unicode::CaseFold
+        Unicode case-folding for case-insensitive lookups
+
     Unicode::Collate::Locale
         Linguistic tailoring for DUCET via Unicode::Collate
 
