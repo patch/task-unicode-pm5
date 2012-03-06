@@ -40,6 +40,10 @@ less Unicode knowledge.
 
 =over
 
+=item L<Unicode::CaseFold>
+
+Unicode case-folding for case-insensitive lookups
+
 =item L<Unicode::Collate::Locale>
 
 Linguistic tailoring for DUCET via Unicode::Collate

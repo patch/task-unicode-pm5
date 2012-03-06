@@ -19,6 +19,7 @@ my $builder = Module::Build->new(
     requires => {
         'perl' => '5.10.0',  # minimum Unicode support
         # modules
+        'Unicode::CaseFold'         => 0,
         'Unicode::Collate::Locale'  => 0,
         'Unicode::GCString'         => 0,
         'Unicode::LineBreak'        => 0,
