@@ -56,6 +56,10 @@ String as Sequence of UAX #29 Grapheme Clusters
 
 Line Folding for Plain Text
 
+=item L<Unicode::Regex::Set>
+
+Subtraction and Intersection of Character Sets in Unicode Regular Expressions
+
 =item L<Unicode::Stringprep>
 
 Preparation of Internationalized Strings (RFC 3454)
