@@ -2,7 +2,7 @@ NAME
     Task::Unicode - Everything needed to work with Unicode data
 
 VERSION
-    This document describes Task::Unicode version 0.03.
+    This document describes Task::Unicode version 0.04.
 
 DESCRIPTION
     This Task module installs everything needed for working with Unicode and
@@ -31,6 +31,10 @@ DESCRIPTION
 
     Unicode::LineBreak
         Line Folding for Plain Text
+
+    Unicode::Regex::Set
+        Subtraction and Intersection of Character Sets in Unicode Regular
+        Expressions
 
     Unicode::Stringprep
         Preparation of Internationalized Strings (RFC 3454)
