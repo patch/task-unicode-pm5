@@ -1,5 +1,10 @@
 # Revision history for Perl module Task::Unicode
 ---
+version: 0.05
+date:    2012-04-15
+changes:
+  - Added Unicode::Util module
+---
 version: 0.04
 date:    2012-04-11
 changes:
