@@ -44,6 +44,10 @@ less Unicode knowledge.
 
 Unicode case-folding for case-insensitive lookups
 
+=item L<Unicode::Casing>
+
+Perl extension to override system case changing functions
+
 =item L<Unicode::Collate::Locale>
 
 Linguistic tailoring for DUCET via Unicode::Collate
