@@ -2,7 +2,7 @@ NAME
     Task::Unicode - Everything needed to work with Unicode data
 
 VERSION
-    This document describes Task::Unicode version 0.05.
+    This document describes Task::Unicode version 0.05_1.
 
 DESCRIPTION
     This Task module installs everything needed for working with Unicode and
@@ -23,6 +23,9 @@ DESCRIPTION
     Unicode::CaseFold
         Unicode case-folding for case-insensitive lookups
 
+    Unicode::Casing
+        Perl extension to override system case changing functions
+
     Unicode::Collate::Locale
         Linguistic tailoring for DUCET via Unicode::Collate
 
@@ -38,6 +41,9 @@ DESCRIPTION
 
     Unicode::Stringprep
         Preparation of Internationalized Strings (RFC 3454)
+
+    Unicode::UTF8
+        Encoding and decoding of UTF-8 encoding form
 
     Unicode::Util
         Unicode-aware versions of built-in Perl functions

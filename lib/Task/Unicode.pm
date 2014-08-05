@@ -4,7 +4,7 @@ use 5.006;
 use strict;
 use warnings;
 
-our $VERSION = '0.05';
+our $VERSION = '0.05_1';
 
 1;
 
@@ -18,7 +18,7 @@ Task::Unicode - Everything needed to work with Unicode data
 
 =head1 VERSION
 
-This document describes Task::Unicode version 0.05.
+This document describes Task::Unicode version 0.05_1.
 
 =head1 DESCRIPTION
 
@@ -67,6 +67,10 @@ Subtraction and Intersection of Character Sets in Unicode Regular Expressions
 =item L<Unicode::Stringprep>
 
 Preparation of Internationalized Strings (RFC 3454)
+
+=item L<Unicode::UTF8>
+
+Encoding and decoding of UTF-8 encoding form
 
 =item L<Unicode::Util>
 

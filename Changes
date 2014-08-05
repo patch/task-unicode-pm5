@@ -4,6 +4,7 @@ version: 0.05_1
 date:    XXX
 changes:
   - Added Unicode::Casing module
+  - Added Unicode::UTF8 module
 ---
 version: 0.05
 date:    2012-04-15

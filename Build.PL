@@ -26,6 +26,7 @@ my $builder = Module::Build->new(
         'Unicode::LineBreak'        => 0,
         'Unicode::Regex::Set'       => 0,
         'Unicode::Stringprep'       => 0,
+        'Unicode::UTF8'             => 0,
         'Unicode::Util'             => 0,
         'utf8::all'                 => 0,
         # debugging
