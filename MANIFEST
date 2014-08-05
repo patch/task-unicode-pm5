@@ -1,0 +1,14 @@
+Build.PL
+Changes
+INSTALL
+LICENSE
+MANIFEST			This list of files
+META.json
+META.yml
+README
+lib/Task/Unicode.pm
+t/00-load.t
+xt/author/kwalitee.t
+xt/author/pod-coverage.t
+xt/author/pod.t
+xt/author/spelling.t

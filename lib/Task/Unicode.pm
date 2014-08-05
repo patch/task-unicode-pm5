@@ -1,16 +1,17 @@
 package Task::Unicode;
 
-use 5.006;
+use v5.10;
+use utf8;
 use strict;
 use warnings;
 
-our $VERSION = '0.05_1';
+our $VERSION = '0.06';
 
 1;
 
 __END__
 
-=encoding utf8
+=encoding UTF-8
 
 =head1 NAME
 
@@ -18,7 +19,7 @@ Task::Unicode - Everything needed to work with Unicode data
 
 =head1 VERSION
 
-This document describes Task::Unicode version 0.05_1.
+This document describes Task::Unicode v0.06.
 
 =head1 DESCRIPTION
 
@@ -112,7 +113,7 @@ Tom’s Unicode Scripts So Life is Easier (only installed with Perl 5.14+)
 
 =head2 SEE ALSO
 
-This task requires Perl 5.8.0, which bundles the following important modules.
+This task requires Perl v5.10, which bundles the following important modules.
 
 =over
 
@@ -153,9 +154,7 @@ Nick Patch <patch@cpan.org>
 
 =head1 COPYRIGHT AND LICENSE
 
-© 2012 Nick Patch
+© 2012–2014 Nick Patch
 
 This library is free software; you can redistribute it and/or modify it under
 the same terms as Perl itself.
-
-=cut

@@ -1,6 +1,6 @@
 # Revision history for Perl module Task::Unicode
 ---
-version: 0.05_1
+version: 0.06
 date:    XXX
 changes:
   - Added Unicode::Casing module
