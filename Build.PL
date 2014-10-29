@@ -33,7 +33,7 @@ my $builder = Module::Build->new(
         'String::Dump'              => 0,
         'Encode::DoubleEncodedUTF8' => 0,
         # utilities
-        'App::Uni'                  => 0,
+        'App::Uni'                  => '9.000',
         %requires,
     },
     meta_merge => {

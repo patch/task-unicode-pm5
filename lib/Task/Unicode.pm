@@ -103,7 +103,7 @@ Fix double-encoded UTF-8 bytes to the correct one
 
 =item L<App::Uni>
 
-Command-line utility to grep UnicodeData.txt
+Command-line utility to find or display Unicode characters
 
 =item L<Unicode::Tussle>
 

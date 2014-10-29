@@ -78,7 +78,7 @@ less Unicode knowledge.
 
 - [App::Uni](https://metacpan.org/pod/App::Uni)
 
-    Command-line utility to grep UnicodeData.txt
+    Command-line utility to find or display Unicode characters
 
 - [Unicode::Tussle](https://metacpan.org/pod/Unicode::Tussle)
 
